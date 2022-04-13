@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f43b1d1544.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .background {
+            background-image: url(images/bg-desktop.svg);
+            background-color: #674bb1;
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding-right: 0px;
+            height: 100%;
+            max-width: 1440px;
+            padding: 0 3.5em;
+        }
+
+        .display {
+            display: flex;
+            color: white;
+        }
+
+        .move {
+            padding: 80px;
+        }
+
+        .button {
+            border: 2px transparent;
+            border-radius: 30px;
+            background-color: white;
+            color: #674bb1;
+            width: 40%;
+            height: 4em;
+            padding: 10px;
+            
+        }
+
+        button:hover {
+            background-color: #e980e7;
+            box-shadow: 3px  3px #503d8d;
+            color: white;
+        }
+
+        .img {
+            width: 600px;
+            height: 400px;
+        }
+
+        .icon {
+            float: right;
+            display: flex;
+        } 
+
+        icon:hover {
+            background-color: #e980e7;
+        }
+        p, button {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            margin-right: 40px;
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            
+        }
+
+        header {
+            padding: 2.5em 0;
+        }
+
+        .resize {
+            width: 35px;
+            height: 35px;
+            justify-content: space-around;
+            margin: 6px;
+            border: 2px solid white;
+            border-radius: 50%;
+            color: #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div>
+            <header>
+                <img src="images/logo.svg" alt="Huddle logo">
+            </header>
+            <div class="display">
+                <div>
+                    <img src="images/illustration-mockups.svg" alt="Illustration mock up" class="img">
+                </div>
+                <div class="move">
+                    <h1>
+                        Build The Community Your Fans Will Love
+                    </h1>
+                    <p>
+                        Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+                        Create connections with your users as you engage in genuine discussions.
+                    </p>
+                    <button class="button">
+                        Register
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="resize">
+                <a href="#" title="Facebook">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+            </div>
+            <div class="resize">
+                <a href="#" title="Twitter">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>    
+            </div>
+            <div class="resize">
+                <a href="#" title="Instagram">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
